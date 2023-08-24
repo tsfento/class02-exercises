@@ -1,23 +1,21 @@
-.null {
-    margin: 0;
-    padding: 0;
+/* Exercise 1 */
+@media screen and (max-width: 600px) {
+    p {
+        color: cornflowerblue;
+    }
 }
 
-/*.parent {
+/* Exercise 2 */
+.parent {
     position: relative;
 }
 
 .child {
     position: absolute;
     top: 50px;
-}*/
+}
 
-/*@media screen and (max-width: 600px) {
-    p {
-        color: cornflowerblue;
-    }
-}*/
-
+/* Exercise 4 */
 .item {
     border: 1px solid black;
 }
